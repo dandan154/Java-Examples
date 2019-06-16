@@ -28,3 +28,12 @@ public static int hash(String str){
     }
 }
 ```
+## Queue
+An implementation of a Queue that stores Strings. It uses an ArrayList for its underlying data structure. 
+
+A Queue makes use of the FIFO (First In, First Out) principle, whereby data that was pushed first to the Queue is the data that is popped first from the Queue. 
+
+## Stack
+An implementation of a Stack that stores Strings. It uses an ArrayList for its underlying data structure. 
+
+A Stack makes use of the LIFO (Last In, First Out) principle, whereby data that was last pushed to the Stack is the data that is removed first from the Stack. 
