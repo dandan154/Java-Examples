@@ -15,7 +15,7 @@ It makes use of a hashing function to determine the location in the array that a
 The hashtable itself is composed of one hundred ArrayLists, which allow for the storage of strings with duplicate hash values. Furthermore the structure also supports the storage of duplicate strings as well. 
 
 The exact implementation of the hashing function is as follows: 
-```javascript
+```java
 public static int hash(String str){
         
         int sum = 0; 
