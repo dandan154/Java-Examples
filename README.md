@@ -37,3 +37,8 @@ A Queue makes use of the FIFO (First In, First Out) principle, whereby data that
 An implementation of a Stack that stores Strings. It uses an ArrayList for its underlying data structure. 
 
 A Stack makes use of the LIFO (Last In, First Out) principle, whereby data that was last pushed to the Stack is the data that is removed first from the Stack. 
+
+## TimeCompare
+An example of how Date classes can be used in Java to track the creation of objects as well as how they can be used to sort data by creation date.  
+
+In this example, two lists are created for two types of users; Admins & Basic Users. Each generated User is randomly assigned an adminstrator status as well as a timestamp noting the date of account creation. The lists are then joined and transformed into an unsorted static array. This static array is then sorted by the time at which each User instance was created.  
