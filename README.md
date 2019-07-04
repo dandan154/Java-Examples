@@ -41,4 +41,4 @@ A Stack makes use of the LIFO (Last In, First Out) principle, whereby data that 
 ## TimeCompare
 An example of how Date classes can be used in Java to track the creation of objects as well as how they can be used to sort data by creation date.  
 
-In this example, two lists are created for two types of users; Admins & Basic Users. Each generated User is randomly assigned an adminstrator status as well as a timestamp noting the date of account creation. The lists are then joined and transformed into an unsorted static array. This static array is then sorted by the time at which each User instance was created.  
+In this example, two lists are created for two types of users; Admins & Basic Users. Each generated User is randomly assigned an adminstrator status as well as a timestamp noting the date of account creation. The lists are then joined and transformed into an unsorted fixed-length array. This array is then sorted by the time at which each User instance was created using an Insertion sort.  
