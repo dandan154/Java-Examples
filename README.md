@@ -2,7 +2,12 @@
 A selection of Java programs for use by students of the GA10004 module. 
 
 ## FileInput
-Example of a simple text parser. This program takes strings from the provided strings.txt file and prints them to the console until it reaches the end of the file. 
+Example of a simple text parser. This program takes strings from the provided strings.txt file and prints them to the console until it reaches the end of the file.
+
+## Grep
+A guide on getting started with Grep in Java through the use of the [Unix4j](https://github.com/tools4j/unix4j) libraries, also includes descriptions of how the Java implementation compares with that of the Unix implementation. 
+
+For further practice, an excellent tutorial can be found here: https://www.baeldung.com/grep-in-java
 
 ## HashCollections
 Basic usage guide for HashMaps, HashSets and the deprecated Hashtable. Provides explicitly commented examples on how to add, remove, and access elements within each of the structures.
